@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "The Bee Machine",
+    "slug": "BeeMachineApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/beeart.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.jpg",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.josh98.BeeMachineApp"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "A partial app meant to identify bee species from pictures and video"
+  }
+}
